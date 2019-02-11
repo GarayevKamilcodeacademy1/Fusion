@@ -1,0 +1,431 @@
+.container{
+	
+}
+
+.container-ful{
+	margin-top: 50px;
+	background: lightgray;
+}
+.container .row .col-6{
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+nav li{
+	 margin-right: 13px;
+	display: inline-block;
+}
+.col-2 img{
+	width: 150px;
+}
+nav{
+
+	position: relative;
+}
+nav a{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 14.5px;
+	text-decoration: none;
+}
+nav a:hover{
+
+	color: #f63854!important;
+}
+nav ul{
+	margin:7px;
+}
+.main{
+	background-image: url(images/02.svg);
+	margin-top: 10%;
+}
+.col-5	img{
+	width: 100%;
+	}
+
+	.main h1{
+		
+		margin: 0;
+	 font-family: 'Arvo', serif;
+	 font-size: 45px;
+	 font-weight: 700px;
+
+	}
+.main p{
+	color: gray;
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.col-12 button{
+	font-family: 'Open Sans', sans-serif;
+	height: 45px;
+	text-align: center;
+	width: 200px;
+	border-radius: 20px;
+
+}
+#button1{
+	margin-top: 10px;
+	border: 1px solid;
+	border-color: white;
+	color: white;
+	background: #f63854!important;
+}
+#button1:hover{
+	color: #f63854!important;
+	background: white;
+}
+
+
+#button2{
+		margin-top: 10px;
+	border: 1px solid;
+	border-color: #f63854!important;
+	color: #f63854!important;
+	background: white;
+}
+#button2:hover{
+	background: #f63854!important;
+	color: white;
+	}
+
+
+.h1 {
+	margin: 100px 0 50px 600px;
+}
+.h1 h1{
+	font-size: 35px;
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+}
+.services{
+	margin-bottom: 70px;
+}
+.services .col-4{
+	text-align: center;
+}
+
+.box h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+	font-family: 'Arvo', serif;
+	font-size: 18px;
+}
+
+.box p{
+	color: gray;
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+}
+
+.box{
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 8px;
+	width: 350px;
+	display: inline-block;
+	height: 200px;
+	border: 1px solid lightgray;
+	
+}
+.icon{
+	padding: 11px;
+	margin: 5px auto;
+	border: 1px solid #f63854!important;
+	color: #f63854!important;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 30px;
+}
+
+.box:hover {
+
+	box-shadow: 0 0 40px darkgray;
+}
+.box:hover .icon{
+
+	background: #f63854!important;
+}
+.box:hover .icon i{
+	color: white;
+}
+
+.underservice{
+	margin-bottom: 100px;
+	width: 100%;
+	height: 438px;
+	background: #f9f9f9;
+}
+
+.underservice .col-6 img{
+	width: 400px;
+	height: 370px;
+	margin-left: 100px;
+}
+
+.underservice .p1{
+	font-weight: 400;
+	font-size: 14px;
+	color: gray;
+    font-family: 'Open Sans', sans-serif;
+	margin-top: 80px;
+	margin-bottom: 8px;
+}
+.underservice .h1{
+	margin-top: 10px;
+	font-family: arvo,serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-left: 0;
+	margin-bottom: 30px;
+}
+.underservice .p2{
+	font-weight: 400;
+	font-size: 14px;
+	color: gray;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 30px;
+}
+
+.underservice button{
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	width: 155px;
+	height: 45px;
+	border-radius: 25px;
+	border: 1px solid white;
+	border-color: white;
+	color: white;
+	background: #f63854!important;
+}
+
+.awesome h1{
+	margin-bottom: 60px;
+	margin-left: 600px;
+	font-size: 35px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+.awesome{
+	margin-bottom: 50px;
+}
+
+.awesome .col-4 img{
+	
+	width: 400px;
+	height: 400px;
+}
+
+
+.awesome .col-12{
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.awesome .div,.icon{
+	display: inline-block;
+}
+
+.awesome .icon{
+	position: absolute;
+	top: 32px;
+	right: 22px;
+	margin-left: 60px;
+}
+.awesome .div h1{
+	margin: 10px 20px;
+
+}
+.awesome .col-4 h1{
+	    font-size: 18px;
+    font-weight: 700;
+    font-family: arvo,serif;
+}
+
+.awesome .div  p{
+	color: gray;
+	font-family: open sans,sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-right: 100px;
+	display: inline-block;
+}
+
+.awesome a{
+	color: black;
+}
+.awesome .col-12:hover{
+	box-shadow: 0 0 40px darkgray;
+}
+.awesome .col-12:hover .icon{
+	color: white;
+	background: #f63854!important;
+}
+
+.awesome .col-12:hover .icon i{
+	color: white;
+}
+
+.right{
+	position: relative;
+}
+
+.awesome .right .icon{
+	position: absolute;
+	top: 30px;
+	left: -30px;
+}
+.right{
+	display: inline-block;
+}
+
+.awesome .right  h1{
+	margin-left: 100px;
+}
+.awesome .right p{
+	margin-left: 100px;
+	margin-right: 20px;
+}
+.awesome .col-12{
+	border: 1px solid gray;
+	border-radius: 8px;
+}
+
+.meet h1{
+	margin-top: 100px;
+	margin-bottom: 60px;
+    margin-left: 450px;
+    font-size: 35px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+.meet{
+	background: #f9f9f9;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.meet .col-4{
+	padding: 0;
+}
+
+.meet .col-4 img{
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.meet .col-8 h1{
+	color: black;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 0;
+	font-size: 18px;
+    font-weight: 700;
+    font-family: arvo,serif;
+}
+
+
+.meet p{
+	margin: 14px;
+	color: gray;
+    font-family: open sans,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.meet .col-8{
+	background: white;
+}
+
+.meet .icons i{
+	font-size: 20px;
+}
+.meet .icons{
+	margin-bottom: 18px;
+	margin-top: 30px;
+	margin-left: 24px;
+}
+
+.meet .col-6:hover{
+	box-shadow: 0 0 30px darkgray;
+}
+
+.pricing{
+	width: 1200px;
+	margin:100px auto;
+}
+
+.pricing h1{
+	    margin-bottom: 50px;
+    margin-left: 500px;
+    font-size: 35px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+.pricing .col-12 h1{
+	margin: 0;
+}
+.pricing .col-12{
+	text-align: center;
+}
+.pricing .col-4{
+	padding: 17px;
+}
+
+.pricing .col-12 .icoons{
+	margin-top: 20px;
+	margin-left: 140px;
+	margin-bottom: 20px;
+	color: #f63854;
+	background: #ebedef;
+	font-size: 39px;
+	padding: 15px 5px 5px 5px;
+	height: 63px;
+	border-radius: 150px;
+	width: 73px;
+	
+}
+.pricing .col-12 h1{
+	margin-bottom: 13px;
+	font-size: 18px;
+    font-weight: 700;
+    font-family: arvo,serif;
+}
+
+.pricing .col-12 p{
+	color: gray;
+    font-family: open sans,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pricing .col-12 button{
+	margin: 30px 0;
+	color: white;
+	border: 1px solid #f63854!important;
+	background: #f63854!important;
+}
+
+.pricing .col-12:hover{
+	box-shadow: 0 0 40px darkgray;
+}
+
+.pricing .col-12:hover .icoons{
+	background: #f63854;
+	color: white;
+}
+
+[class^=".col-"]{
+	border: none;
+}
